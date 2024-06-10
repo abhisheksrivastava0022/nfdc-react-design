@@ -36,7 +36,7 @@ function TabPanel(props) {
             {...other}
         >
             {value === index && (
-                <TabPanelContainer>F
+                <TabPanelContainer>
                     {children}
                 </TabPanelContainer>
             )}
